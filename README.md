@@ -10,32 +10,32 @@ The project includes a small test harness that runs every registered algorithm a
 ## Implemented and Planned Algorithms
 
 | Algorithm                            | Category                  | Status | Notes                                                 |
-| ------------------------------------ | ------------------------- | ------ | ----------------------------------------------------- |
-| Run-Length Encoding (RLE)            | Simple / Statistical      | 🗹      | Byte-oriented RLE implementation.                     |
-| Huffman Coding                       | Entropy Coding            | 🗹      | Frequency-table header with bit-packed output stream. |
-| Shannon–Fano Coding                  | Entropy Coding            | ☐      | Educational prefix coding algorithm.                  |
-| Canonical Huffman Coding             | Entropy Coding            | ☐      | Compact codebook representation.                      |
-| Adaptive Huffman (FGK)               | Entropy Coding            | ☐      | Streaming Huffman coding without a header.            |
-| Arithmetic Coding                    | Entropy Coding            | ☐      | Range-based entropy coding.                           |
-| Range Coding                         | Entropy Coding            | ☐      | Arithmetic coding variant.                            |
-| ANS (rANS / tANS)                    | Entropy Coding            | ☐      | Modern entropy coding family.                         |
-| Elias Gamma Coding                   | Integer Coding            | ☐      | Universal integer encoding scheme.                    |
-| Elias Delta Coding                   | Integer Coding            | ☐      | Extension of gamma coding.                            |
-| Fibonacci Coding                     | Integer Coding            | ☐      | Integer coding using Fibonacci representation.        |
-| LZ77                                 | Dictionary                | ☐      | Sliding-window dictionary compression.                |
-| LZ78                                 | Dictionary                | ☐      | Dictionary-building compression algorithm.            |
-| LZW                                  | Dictionary                | ☐      | Widely known variant used in formats like GIF.        |
-| DEFLATE                              | Hybrid                    | ☐      | Combination of LZ77 and Huffman coding.               |
-| LZMA / LZMA2                         | Dictionary + Range Coding | ☐      | High-ratio compression used by modern archivers.      |
-| Snappy                               | Fast Compression          | ☐      | Focus on speed rather than compression ratio.         |
-| Zstandard (Zstd-like)                | Hybrid                    | ☐      | Modern high-performance compression algorithm.        |
-| Burrows–Wheeler Transform (BWT)      | Transform                 | ☐      | Often used as preprocessing before entropy coding.    |
-| Move-to-Front (MTF)                  | Transform                 | ☐      | Typically used after BWT.                             |
-| Delta Encoding                       | Transform                 | ☐      | Useful for numerical or structured data.              |
-| Prediction by Partial Matching (PPM) | Context Modeling          | ☐      | Statistical compression based on context prediction.  |
-| Block-sorting pipeline (bzip2-style) | Transform + Entropy       | ☐      | BWT + MTF + entropy coding.                           |
-| Bit Packing                          | Data Packing              | ☐      | Fixed-width integer packing.                          |
-| Custom / Experimental Algorithms     | Various                   | ☐      | Placeholder for additional research or experiments.   |
+| ------------------------------------ | ------------------------- | :----: | ----------------------------------------------------- |
+| Run-Length Encoding (RLE)            | Simple / Statistical      |   🗹    | Byte-oriented RLE implementation.                     |
+| Huffman Coding                       | Entropy Coding            |   🗹    | Frequency-table header with bit-packed output stream. |
+| Shannon–Fano Coding                  | Entropy Coding            |   ☐    | Educational prefix coding algorithm.                  |
+| Canonical Huffman Coding             | Entropy Coding            |   ☐    | Compact codebook representation.                      |
+| Adaptive Huffman (FGK)               | Entropy Coding            |   ☐    | Streaming Huffman coding without a header.            |
+| Arithmetic Coding                    | Entropy Coding            |   ☐    | Range-based entropy coding.                           |
+| Range Coding                         | Entropy Coding            |   ☐    | Arithmetic coding variant.                            |
+| ANS (rANS / tANS)                    | Entropy Coding            |   ☐    | Modern entropy coding family.                         |
+| Elias Gamma Coding                   | Integer Coding            |   ☐    | Universal integer encoding scheme.                    |
+| Elias Delta Coding                   | Integer Coding            |   ☐    | Extension of gamma coding.                            |
+| Fibonacci Coding                     | Integer Coding            |   ☐    | Integer coding using Fibonacci representation.        |
+| LZ77                                 | Dictionary                |   ☐    | Sliding-window dictionary compression.                |
+| LZ78                                 | Dictionary                |   ☐    | Dictionary-building compression algorithm.            |
+| LZW                                  | Dictionary                |   ☐    | Widely known variant used in formats like GIF.        |
+| DEFLATE                              | Hybrid                    |   ☐    | Combination of LZ77 and Huffman coding.               |
+| LZMA / LZMA2                         | Dictionary + Range Coding |   ☐    | High-ratio compression used by modern archivers.      |
+| Snappy                               | Fast Compression          |   ☐    | Focus on speed rather than compression ratio.         |
+| Zstandard (Zstd-like)                | Hybrid                    |   ☐    | Modern high-performance compression algorithm.        |
+| Burrows–Wheeler Transform (BWT)      | Transform                 |   ☐    | Often used as preprocessing before entropy coding.    |
+| Move-to-Front (MTF)                  | Transform                 |   ☐    | Typically used after BWT.                             |
+| Delta Encoding                       | Transform                 |   ☐    | Useful for numerical or structured data.              |
+| Prediction by Partial Matching (PPM) | Context Modeling          |   ☐    | Statistical compression based on context prediction.  |
+| Block-sorting pipeline (bzip2-style) | Transform + Entropy       |   ☐    | BWT + MTF + entropy coding.                           |
+| Bit Packing                          | Data Packing              |   ☐    | Fixed-width integer packing.                          |
+| Custom / Experimental Algorithms     | Various                   |   ☐    | Placeholder for additional research or experiments.   |
 
 ---
 
