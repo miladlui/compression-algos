@@ -70,11 +70,11 @@ The program will automatically run all registered algorithms and display a summa
 ```
 compression-algos/
 ├── include/
-│   └── compressor.h        # common compression interface
+│   └── compressor.h
 │
 ├── src/
-│   ├── main.c              # algorithm test harness
-│   └── registry.c          # algorithm registration
+│   ├── main.c
+│   └── registry.c
 │
 ├── algorithms/
 │   ├── rle/
