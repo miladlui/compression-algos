@@ -90,7 +90,7 @@ int main(void)
     };
     const size_t test_count = sizeof(tests) / sizeof(tests[0]);
     // table header
-    puts("Compression demo — testing registered algorithms\n");
+    puts("-------------------------------------------------------------------------------");
     printf("%-12s | %-10s | %-10s | %-6s | %-9s | %-4s | %s\n",
            "algorithm", "test", "orig", "comped", "ratio", "ms", "ok");
     puts("-------------------------------------------------------------------------------");
