@@ -4,6 +4,7 @@
 #include "../algorithms/shannon/shannon.h"
 #include "../algorithms/canonical_huffman/canonical_huffman.h"
 #include "../algorithms/adaptive_huffman/adaptive_huffman.h"
+#include "../algorithms/arithmetic/arithmetic.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -11,4 +12,5 @@ Compressor *algorithms[] = {
     &shannon_compressor,
     &canonical_huffman_compressor,
     &adaptive_huffman_compressor,
+    &arithmetic_compressor,
     NULL};
