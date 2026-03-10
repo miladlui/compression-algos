@@ -91,7 +91,7 @@ int main(void)
     const size_t test_count = sizeof(tests) / sizeof(tests[0]);
     // table header
     puts("-------------------------------------------------------------------------------");
-    printf("%-12s | %-10s | %-10s | %-6s | %-9s | %-4s | %s\n",
+    printf("%-20s | %-10s | %-10s | %-6s | %-9s | %-4s | %s\n",
            "algorithm", "test", "orig", "comped", "ratio", "ms", "ok");
     puts("-------------------------------------------------------------------------------");
     // iterate algorithms[]
@@ -126,7 +126,7 @@ int main(void)
             fmt_size(orig_s, in_sz);
             fmt_size(comp_s, comp_sz);
             double ratio = (comp_sz == 0) ? 0.0 : (double)in_sz / (double)comp_sz;
-            printf("%-12s | %-10s | %-10s | %-6s | %6.2f | %6.2f | %s\n",
+            printf("%-20s | %-10s | %-10s | %-6s | %6.2f | %6.2f | %s\n",
                    c->name,
                    tests[ti].name,
                    orig_s,
