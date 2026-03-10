@@ -11,13 +11,13 @@ The project includes a small test harness that runs every registered algorithm a
 
 | Algorithm                            | Category                  | Status | Notes                                                 |
 | ------------------------------------ | ------------------------- | :----: | ----------------------------------------------------- |
-| Run-Length Encoding (RLE)            | Simple / Statistical      |   🗹    | Byte-oriented RLE implementation.                     |
-| Huffman Coding                       | Entropy Coding            |   🗹    | Frequency-table header with bit-packed output stream. |
-| Shannon–Fano Coding                  | Entropy Coding            |   🗹    | Educational prefix coding algorithm.                  |
-| Canonical Huffman Coding             | Entropy Coding            |   🗹    | Compact codebook representation.                      |
-| Adaptive Huffman (FGK)               | Entropy Coding            |   🗹    | Streaming Huffman coding without a header.            |
-| Arithmetic Coding                    | Entropy Coding            |   🗹    | Range-based entropy coding.                           |
-| Range Coding                         | Entropy Coding            |   ☐    | Arithmetic coding variant.                            |
+| Run-Length Encoding (RLE)            | Simple / Statistical      |   ◼    | Byte-oriented RLE implementation.                     |
+| Huffman Coding                       | Entropy Coding            |   ◼    | Frequency-table header with bit-packed output stream. |
+| Shannon–Fano Coding                  | Entropy Coding            |   ◼    | Educational prefix coding algorithm.                  |
+| Canonical Huffman Coding             | Entropy Coding            |   ◼    | Compact codebook representation.                      |
+| Adaptive Huffman (FGK)               | Entropy Coding            |   ◼    | Streaming Huffman coding without a header.            |
+| Arithmetic Coding                    | Entropy Coding            |   ◼    | Range-based entropy coding.                           |
+| Range Coding                         | Entropy Coding            |   ⬕    | Arithmetic coding variant.                            |
 | ANS (rANS / tANS)                    | Entropy Coding            |   ☐    | Modern entropy coding family.                         |
 | Elias Gamma Coding                   | Integer Coding            |   ☐    | Universal integer encoding scheme.                    |
 | Elias Delta Coding                   | Integer Coding            |   ☐    | Extension of gamma coding.                            |
