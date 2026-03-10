@@ -61,7 +61,7 @@ The program will automatically run all registered algorithms and display a summa
 - runtime
 - correctness verification
 
-![screenshot 1](images/screenshot_01.png)
+![screenshot](images/screenshot_02.png)
 
 ---
 
