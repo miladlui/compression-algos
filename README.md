@@ -18,7 +18,7 @@ The project includes a small test harness that runs every registered algorithm a
 | Adaptive Huffman (FGK)               | Entropy Coding            |   ◼    | Streaming Huffman coding without a header.            |
 | Arithmetic Coding                    | Entropy Coding            |   ◼    | Range-based entropy coding.                           |
 | Range Coding                         | Entropy Coding            |   ⬕    | Arithmetic coding variant.                            |
-| ANS (rANS / tANS)                    | Entropy Coding            |   ☐    | Modern entropy coding family.                         |
+| ANS (rANS / tANS)                    | Entropy Coding            |   ⬕    | Modern entropy coding family.                         |
 | Elias Gamma Coding                   | Integer Coding            |   ☐    | Universal integer encoding scheme.                    |
 | Elias Delta Coding                   | Integer Coding            |   ☐    | Extension of gamma coding.                            |
 | Fibonacci Coding                     | Integer Coding            |   ☐    | Integer coding using Fibonacci representation.        |
@@ -81,13 +81,13 @@ compression-algos/
 │   │   ├── rle.c
 │   │   └── rle.h
 │   │
-│   └── huffman/
-│       ├── huffman.c
-│       └── huffman.h
+│   ├── huffman/
+│   │   ├── huffman.c
+│   │   └── huffman.h
+│   └── ...
 │
 ├── Makefile
-├── LICENSE
-└── README.md
+└── ...
 ```
 
 ---

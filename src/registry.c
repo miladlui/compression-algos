@@ -6,6 +6,7 @@
 #include "../algorithms/adaptive_huffman/adaptive_huffman.h"
 #include "../algorithms/arithmetic/arithmetic.h"
 #include "../algorithms/range/range.h"
+#include "../algorithms/rans/rans.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -15,4 +16,5 @@ Compressor *algorithms[] = {
     &adaptive_huffman_compressor,
     &arithmetic_compressor,
     &range_compressor,
+    &rans_compressor,
     NULL};
