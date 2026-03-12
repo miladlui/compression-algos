@@ -19,7 +19,7 @@ The project includes a small test harness that runs every registered algorithm a
 | Arithmetic Coding                    | Entropy Coding            |   ◼    | Range-based entropy coding.                           |
 | Range Coding                         | Entropy Coding            |   ⬕    | Arithmetic coding variant.                            |
 | ANS (rANS / tANS)                    | Entropy Coding            |   ⬕    | Modern entropy coding family.                         |
-| Elias Gamma Coding                   | Integer Coding            |   ☐    | Universal integer encoding scheme.                    |
+| Elias Gamma Coding                   | Integer Coding            |   ◼    | Universal integer encoding scheme.                    |
 | Elias Delta Coding                   | Integer Coding            |   ☐    | Extension of gamma coding.                            |
 | Fibonacci Coding                     | Integer Coding            |   ☐    | Integer coding using Fibonacci representation.        |
 | LZ77                                 | Dictionary                |   ☐    | Sliding-window dictionary compression.                |

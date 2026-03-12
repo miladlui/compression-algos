@@ -7,6 +7,7 @@
 #include "../algorithms/arithmetic/arithmetic.h"
 #include "../algorithms/range/range.h"
 #include "../algorithms/rans/rans.h"
+#include "../algorithms/elias_gamma/elias_gamma.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -17,4 +18,5 @@ Compressor *algorithms[] = {
     &arithmetic_compressor,
     &range_compressor,
     &rans_compressor,
+    &elias_gamma_compressor,
     NULL};
