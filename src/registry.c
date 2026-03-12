@@ -8,6 +8,7 @@
 #include "../algorithms/range/range.h"
 #include "../algorithms/rans/rans.h"
 #include "../algorithms/elias_gamma/elias_gamma.h"
+#include "../algorithms/elias_delta/elias_delta.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -19,4 +20,5 @@ Compressor *algorithms[] = {
     &range_compressor,
     &rans_compressor,
     &elias_gamma_compressor,
+    &elias_delta_compressor,
     NULL};
