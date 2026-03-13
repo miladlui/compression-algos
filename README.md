@@ -9,7 +9,7 @@ The project includes a small test harness that runs every registered algorithm a
 
 ## Implemented and Planned Algorithms
 
-◼ 10 completed | ⬕ 2 incomplete | ☐ 13 not started
+◼ 11 completed | ⬕ 2 incomplete | ☐ 12 not started
 
 | Algorithm                            | Category                  | Status | Notes                                                 |
 | ------------------------------------ | ------------------------- | :----: | ----------------------------------------------------- |
@@ -25,7 +25,7 @@ The project includes a small test harness that runs every registered algorithm a
 | Elias Delta Coding                   | Integer Coding            |   ◼    | Extension of gamma coding.                            |
 | Fibonacci Coding                     | Integer Coding            |   ◼    | Integer coding using Fibonacci representation.        |
 | LZ77                                 | Dictionary                |   ◼    | Sliding-window dictionary compression.                |
-| LZ78                                 | Dictionary                |   ☐    | Dictionary-building compression algorithm.            |
+| LZ78                                 | Dictionary                |   ◼    | Dictionary-building compression algorithm.            |
 | LZW                                  | Dictionary                |   ☐    | Widely known variant used in formats like GIF.        |
 | DEFLATE                              | Hybrid                    |   ☐    | Combination of LZ77 and Huffman coding.               |
 | LZMA / LZMA2                         | Dictionary + Range Coding |   ☐    | High-ratio compression used by modern archivers.      |
