@@ -13,6 +13,7 @@
 #include "../algorithms/lz77/lz77.h"
 #include "../algorithms/lz78/lz78.h"
 #include "../algorithms/lzw/lzw.h"
+// #include "../algorithms/deflate/deflate.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -29,4 +30,5 @@ Compressor *algorithms[] = {
     &lz77_compressor,
     &lz78_compressor,
     &lzw_compressor,
+    //    &deflate_compressor,
     NULL};
