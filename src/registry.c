@@ -9,6 +9,7 @@
 #include "../algorithms/rans/rans.h"
 #include "../algorithms/elias_gamma/elias_gamma.h"
 #include "../algorithms/elias_delta/elias_delta.h"
+#include "../algorithms/fibonacci/fibonacci.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -21,4 +22,5 @@ Compressor *algorithms[] = {
     &rans_compressor,
     &elias_gamma_compressor,
     &elias_delta_compressor,
+    &fibonacci_compressor,
     NULL};
