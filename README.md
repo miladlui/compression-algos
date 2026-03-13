@@ -9,7 +9,7 @@ The project includes a small test harness that runs every registered algorithm a
 
 ## Implemented and Planned Algorithms
 
-◼ 11 completed | ⬕ 2 incomplete | ☐ 12 not started
+◼ 12 completed | ⬕ 2 incomplete | ☐ 11 not started
 
 | Algorithm                            | Category                  | Status | Notes                                                 |
 | ------------------------------------ | ------------------------- | :----: | ----------------------------------------------------- |
