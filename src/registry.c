@@ -12,6 +12,7 @@
 #include "../algorithms/fibonacci/fibonacci.h"
 #include "../algorithms/lz77/lz77.h"
 #include "../algorithms/lz78/lz78.h"
+#include "../algorithms/lzw/lzw.h"
 
 Compressor *algorithms[] = {
     &rle_compressor,
@@ -27,4 +28,5 @@ Compressor *algorithms[] = {
     &fibonacci_compressor,
     &lz77_compressor,
     &lz78_compressor,
+    &lzw_compressor,
     NULL};
