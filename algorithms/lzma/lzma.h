@@ -1,4 +1,3 @@
-// algorithms/lzma/lzma.h
 #ifndef LZMA_H
 #define LZMA_H
 

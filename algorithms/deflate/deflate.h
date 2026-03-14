@@ -1,4 +1,3 @@
-// algorithms/deflate/deflate.h
 #ifndef DEFLATE_H
 #define DEFLATE_H
 
