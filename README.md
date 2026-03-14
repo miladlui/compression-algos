@@ -9,7 +9,7 @@ The project includes a small test harness that runs every registered algorithm a
 
 ## Implemented and Planned Algorithms
 
-◼ 12 completed | ⬕ 3 incomplete | ☐ 10 not started
+◼ 12 completed | ⬕ 4 incomplete | ☐ 9 not started
 
 | Algorithm                            | Category                  | Status | Notes                                                 |
 | ------------------------------------ | ------------------------- | :----: | ----------------------------------------------------- |
@@ -28,7 +28,7 @@ The project includes a small test harness that runs every registered algorithm a
 | LZ78                                 | Dictionary                |   ◼    | Dictionary-building compression algorithm.            |
 | LZW                                  | Dictionary                |   ◼    | Widely known variant used in formats like GIF.        |
 | DEFLATE                              | Hybrid                    |   ⬕    | Combination of LZ77 and Huffman coding.               |
-| LZMA / LZMA2                         | Dictionary + Range Coding |   ☐    | High-ratio compression used by modern archivers.      |
+| LZMA                                 | Dictionary + Range Coding |   ⬕    | High-ratio compression used by modern archivers.      |
 | Snappy                               | Fast Compression          |   ☐    | Focus on speed rather than compression ratio.         |
 | Zstandard (Zstd-like)                | Hybrid                    |   ☐    | Modern high-performance compression algorithm.        |
 | Burrows–Wheeler Transform (BWT)      | Transform                 |   ☐    | Often used as preprocessing before entropy coding.    |
